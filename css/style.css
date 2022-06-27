@@ -2933,6 +2933,12 @@ body {
   transition: all 0.5s ease 0s;
 }
 
+.social-footer__link._big-footer {
+  -webkit-transform: scale(1.27);
+      -ms-transform: scale(1.27);
+          transform: scale(1.27);
+}
+
 .footer-copy-right__big-text {
   font-size: 14px;
   line-height: 193%;
