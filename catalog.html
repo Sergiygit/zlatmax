@@ -6,10 +6,10 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220627122427">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220627131023">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap&_v=20220627122427" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap&_v=20220627131023" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -72,7 +72,7 @@
 											<a href="tel:88007774967" class="header-call-back__link">8-800-777-49-86</a>
 										</div>
 									</div>
-									<button class="header-call-back__order-call">Заказать звонок</button>
+									<button data-popup="#popup" class="header-call-back__order-call">Заказать звонок</button>
 								</div>
 							</div>
 							<button data-da=".top-header__body, 991.98,3" class="body-header__header-like _icon-favorite"></button>
@@ -1626,17 +1626,26 @@
 				</div>
 		</footer>
 	</div>
-	<!-- <div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
-				Text
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					<form action="" class="popup__form">
+						<div class="popup__form-text">
+							<p>Введите номер телефона:</p>
+						</div>
+						<input value="+380" autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="+380__-__-__-___" class="popup__input">
+						<button class="popup__button button">Заказать</button>
+						<div class="popup__form-info">
+							<p>*мы вам передзвоним в течении 15 минут</p>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
-</div> -->
-	<script src="js/app.min.js?_v=20220627122427"></script>
+	<script src="js/app.min.js?_v=20220627131023"></script>
 </body>
 
 </html>
