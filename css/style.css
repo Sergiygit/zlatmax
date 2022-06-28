@@ -485,7 +485,6 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  overflow: hidden;
 }
 
 .rating__active::before {
@@ -495,7 +494,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  color: #ffd300;
+  color: #ffd500;
 }
 
 .rating__items {
