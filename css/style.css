@@ -5790,7 +5790,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     background-color: #141414;
     overflow: auto;
     padding: 4.375rem 2.1875rem;
-    z-index: 4;
+    z-index: 5;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
